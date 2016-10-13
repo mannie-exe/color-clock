@@ -1,5 +1,12 @@
 @import 'vendor';
 
+@font-face {
+  src: url('../fonts/avenir-next-bold.otf');
+
+  font-family: 'Avenir Next';
+  font-weight: bold;
+}
+
 *,
 *:before,
 *:after {
