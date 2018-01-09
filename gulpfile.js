@@ -74,7 +74,7 @@ gulp.task('scripts-deploy', function() {
                 //this is the filename of the compressed version of our JS
                 .pipe(concat('app.js'))
                 //compress :D
-                .pipe(uglify())
+                //.pipe(uglify())
                 //where we will store our finalized, compressed script
                 .pipe(gulp.dest('dist/scripts'));
 });
