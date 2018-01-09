@@ -1,35 +1,36 @@
 {
-  "name": "color-clock",
-  "version": "0.1.0",
-  "description": "The Iron Yard - Frontend Engineering - Assignment #10",
-  "main": "dist/index.html",
-  "scripts": {
-    "start": "gulp watch",
-    "build": "gulp build",
-    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/raevox/The-Color-Clock.git"
-  },
+  "name": "the-color-clock",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Color Clock for the Iron Yard (Assignment #10)",
   "author": "Manpreet \"Mannie\" Singh",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/raevox/The-Color-Clock/issues"
+  "homepage": "https://intrnt-dolphin.github.io/TheColorClock",
+  "main": "dist/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intrnt-dolphin/TheColorClock.git"
   },
-  "homepage": "https://github.com/raevox/The-Color-Clock#readme",
+  "bugs": {
+    "url": "https://github.com/intrnt-dolphin/TheColorClock/issues"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp deploy"
+  },
   "devDependencies": {
-    "babel-preset-es2015": "^6.16.0",
-    "browser-sync": "^2.17.3",
-    "browserify": "^13.1.0",
+    "browser-sync": "^2.18.7",
     "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-sass": "^2.3.2",
-    "gulp-sourcemaps": "^1.7.3",
-    "jquery": "^3.1.1",
-    "node-bourbon": "^4.2.8",
-    "normalize.css": "^5.0.0",
-    "vinyl-buffer": "^1.0.0",
-    "vinyl-source-stream": "^1.1.0"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8"
   }
 }
