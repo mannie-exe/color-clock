@@ -1,0 +1,9 @@
+*.txt
+
+*-lock.json
+
+dist
+build
+
+.nyc_output
+coverage

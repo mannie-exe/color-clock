@@ -1,38 +1,28 @@
 {
-  "name": "the-color-clock",
-  "version": "1.0.0",
-  "private": true,
-  "description": "The Color Clock for the Iron Yard (Assignment #10)",
-  "author": "Manpreet \"Mannie\" Singh",
-  "license": "MIT",
-  "homepage": "https://intrnt-dolphin.github.io/TheColorClock",
-  "main": "dist/index.html",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/intrnt-dolphin/TheColorClock.git"
-  },
-  "bugs": {
-    "url": "https://github.com/intrnt-dolphin/TheColorClock/issues"
-  },
+  "name": "color-clock",
+  "version": "2.0.0",
+  "homepage": "https://schmannie.github.io/color-clock",
+  "description": "\"See\" what time it is.",
+  "type": "module",
+  "packageManager": "pnpm@7.0.0",
   "scripts": {
-    "start": "gulp",
-    "build": "gulp deploy",
-    "predeploy": "yarn build",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "build": "pnpm turbo run build",
+    "dev": "pnpm turbo run dev"
   },
   "devDependencies": {
-    "browser-sync": "^2.18.7",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.1.1",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-plumber": "^1.1.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sequence": "^0.4.6",
-    "gulp-shell": "^0.5.2",
-    "gulp-sourcemaps": "^2.4.1",
-    "gulp-uglify": "^2.0.1",
-    "gulp-util": "^3.0.8"
+    "eslint": "^8.14.0",
+    "eslint-plugin-import": "^2.26.0",
+    "prettier": "^2.6.2",
+    "prettier-eslint": "^14.0.2",
+    "turbo": "^1.2.8"
+  },
+  "license": "MIT",
+  "author": "Manpreet \"Mannie\" Singh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schmannie/color-clock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schmannie/color-clock/issues"
   }
 }

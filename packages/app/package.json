@@ -1,0 +1,15 @@
+{
+  "name": "color-clock-app",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm vite build",
+    "dev": "pnpm vite"
+  },
+  "devDependencies": {
+    "vite": "^2.9.8"
+  },
+  "dependencies": {
+    "color-clock-lib": "link:..\\lib"
+  }
+}

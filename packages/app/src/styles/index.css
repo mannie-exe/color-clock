@@ -1,0 +1,14 @@
+@import url('./reset.css');
+
+html {
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  height: 100%;
+}
