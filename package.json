@@ -5,6 +5,9 @@
   "description": "\"See\" what time it is.",
   "type": "module",
   "packageManager": "pnpm@7.0.0",
+  "engines": {
+    "node": ">=18.1.0"
+  },
   "scripts": {
     "build": "pnpm turbo run build",
     "dev": "pnpm turbo run dev"
