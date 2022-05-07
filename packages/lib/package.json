@@ -2,7 +2,13 @@
   "name": "color-clock-lib",
   "version": "1.0.0",
   "type": "module",
-  "exports": "./dist/index.js",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
   "scripts": {
     "build": "pnpm tsup",
     "dev": "pnpm tsup --watch"
