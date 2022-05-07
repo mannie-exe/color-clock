@@ -10,7 +10,8 @@
     "dev": {
       "inputs": ["./src/**/*.ts"],
       "outputs": ["./dist/*"],
-      "dependsOn": ["^build"]
+      "dependsOn": ["^build"],
+      "cache": false
     }
   }
 }
