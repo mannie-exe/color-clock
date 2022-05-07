@@ -6,10 +6,10 @@
     "build": "pnpm vite build",
     "dev": "pnpm vite"
   },
-  "devDependencies": {
-    "vite": "^2.9.8"
-  },
   "dependencies": {
     "color-clock-lib": "link:..\\lib"
+  },
+  "devDependencies": {
+    "vite": "^2.9.8"
   }
 }
